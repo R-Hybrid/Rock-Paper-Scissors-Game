@@ -35,10 +35,10 @@ if player_choice >= 3 or player_choice < 0:
   print("You typed an invalid number.")
 else:
   #Images print first, then logic is run below
-  print(f"You chose:")
+  print("You chose:")
   print(images[player_choice])
   computer_choice = random.randint(0, 2)
-  print(f"The computer chose:")
+  print("The computer chose:")
   print(images[computer_choice])
 
 
