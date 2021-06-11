@@ -30,7 +30,7 @@ scissors = '''
 images = [rock, paper, scissors]
 
 print("Welcome to Rock, Paper, Scissors!")
-player_choice = int(input("Please pick one. 0 for Rock, 1 for Paper, or 2 for Scissors."))
+player_choice = int(input("Please pick one. 0 for Rock, 1 for Paper, or 2 for Scissors. "))
 if player_choice >= 3 or player_choice < 0:
   print("You typed an invalid number.")
 else:
